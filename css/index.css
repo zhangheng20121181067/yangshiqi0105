@@ -1153,7 +1153,7 @@ body .main .zhuangxiu h3 {
   line-height: .40rem;
   padding-left: .1rem; }
 body .main .zhuangxiu .list {
-  padding: 0 .06rem; }
+  padding: 0 0.5%; }
   body .main .zhuangxiu .list .item .pic {
     height: 2.6rem;
     background-size: cover;
@@ -1191,7 +1191,7 @@ body .main .gongyi .list {
     width: 32%;
     height: 1.4rem;
     margin-right: 1.5%;
-    margin-bottom: .10rem;
+    margin-bottom: 1.5%;
     float: left;
     background-size: cover;
     background-repeat: no-repeat;
