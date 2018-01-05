@@ -1146,27 +1146,26 @@ body .main .banner {
       background-position: center;
       display: block;
       background-image: url(../images/57B698D0-FAF1-4885-9533-88EA938AFA0F@2x.png); }
-body .main .zhuangxiu {
-  margin-top: .10rem; }
-  body .main .zhuangxiu h3 {
-    font-size: .18rem;
-    font-weight: 700;
-    line-height: .40rem;
-    padding-left: .1rem; }
-  body .main .zhuangxiu .list .item {
-    margin-top: .10rem; }
-    body .main .zhuangxiu .list .item .pic {
-      height: 2.6rem;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      display: block; }
-    body .main .zhuangxiu .list .item p {
-      font-size: .16rem;
-      text-align: center;
-      line-height: .4rem;
-      background-color: #41bf71;
-      color: #fff; }
+body .main .zhuangxiu h3 {
+  margin: .10rem 0 .06rem;
+  font-size: .18rem;
+  font-weight: 700;
+  line-height: .40rem;
+  padding-left: .1rem; }
+body .main .zhuangxiu .list {
+  padding: 0 .06rem; }
+  body .main .zhuangxiu .list .item .pic {
+    height: 2.6rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block; }
+  body .main .zhuangxiu .list .item p {
+    font-size: .16rem;
+    text-align: center;
+    line-height: .4rem;
+    background-color: #41bf71;
+    color: #fff; }
   body .main .zhuangxiu .list .item1 .pic {
     background-image: url("../images/zhuangxiu1.jpg"); }
   body .main .zhuangxiu .list .item2 .pic {
@@ -1186,43 +1185,47 @@ body .main .zhucai {
   background-position: center;
   display: block;
   background-image: url(../images/zhucai.jpg); }
-body .main .gongyi .list .item {
-  width: 32%;
-  height: 1.4rem;
-  margin-right: 2%;
-  margin-bottom: .10rem;
-  float: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: block; }
-  body .main .gongyi .list .item:nth-child(3n) {
-    margin-right: 0; }
-body .main .gongyi .list .item1 {
-  background-image: url("../images/1.png"); }
-body .main .gongyi .list .item2 {
-  background-image: url("../images/2.png"); }
-body .main .gongyi .list .item3 {
-  background-image: url("../images/3.png"); }
-body .main .gongyi .list .item4 {
-  background-image: url("../images/4.png"); }
-body .main .gongyi .list .item5 {
-  background-image: url("../images/5.png"); }
-body .main .gongyi .list .item6 {
-  background-image: url("../images/6.png"); }
-body .main .gongyi .list .item7 {
-  background-image: url("../images/7.png"); }
-body .main .gongyi .list .item8 {
-  background-image: url("../images/8.png"); }
-body .main .gongyi .list .item9 {
-  background-image: url("../images/9.png"); }
-body .main .productIntro p {
-  font-size: .14rem;
-  line-height: .20rem;
-  color: #333;
-  margin-top: .10rem; }
-  body .main .productIntro p b {
-    font-size: .16rem;
-    color: #000; }
+body .main .gongyi .list {
+  padding: 0 0.5%; }
+  body .main .gongyi .list .item {
+    width: 32%;
+    height: 1.4rem;
+    margin-right: 1.5%;
+    margin-bottom: .10rem;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block; }
+    body .main .gongyi .list .item:nth-child(3n) {
+      margin-right: 0; }
+  body .main .gongyi .list .item1 {
+    background-image: url("../images/1.png"); }
+  body .main .gongyi .list .item2 {
+    background-image: url("../images/2.png"); }
+  body .main .gongyi .list .item3 {
+    background-image: url("../images/3.png"); }
+  body .main .gongyi .list .item4 {
+    background-image: url("../images/4.png"); }
+  body .main .gongyi .list .item5 {
+    background-image: url("../images/5.png"); }
+  body .main .gongyi .list .item6 {
+    background-image: url("../images/6.png"); }
+  body .main .gongyi .list .item7 {
+    background-image: url("../images/7.png"); }
+  body .main .gongyi .list .item8 {
+    background-image: url("../images/8.png"); }
+  body .main .gongyi .list .item9 {
+    background-image: url("../images/9.png"); }
+body .main .productIntro {
+  padding: 0 .06rem; }
+  body .main .productIntro p {
+    font-size: .14rem;
+    line-height: .20rem;
+    color: #333;
+    margin-top: .10rem; }
+    body .main .productIntro p b {
+      font-size: .16rem;
+      color: #000; }
 
 /*# sourceMappingURL=index.css.map */
