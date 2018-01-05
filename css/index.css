@@ -1218,7 +1218,8 @@ body .main .gongyi .list {
   body .main .gongyi .list .item9 {
     background-image: url("../images/9.png"); }
 body .main .productIntro {
-  padding: 0 .06rem; }
+  padding: 0 .06rem;
+  margin-bottom: .2rem; }
   body .main .productIntro p {
     font-size: .14rem;
     line-height: .20rem;
